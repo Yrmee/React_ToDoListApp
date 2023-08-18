@@ -1,0 +1,100 @@
+#root {
+    background-image: linear-gradient(rgba(244, 175, 111, 0.674), rgba(244, 231, 205, 0.872));
+    background-image: url(/images/v602-nunoon-32-rippednotes.jpg);
+    background-size: contain;
+    border-radius: 5px;
+    width: fit-content;
+    height: auto;
+    margin: 50px auto;
+    padding: 80px;
+    box-shadow: 2px 2px 5px #c5a68ed0;
+    box-shadow: 2px 2px 5px #75726fd0;
+    color:rgb(113, 96, 88);
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    font-family: monospace;
+    font-style: italic;
+    color:rgba(19, 95, 216, 0.571);
+    
+}
+
+.todoItemContainer {
+    background-color: #ffffff9a;
+    border-radius: 5px;
+    box-shadow: 2px 3px 6px #a09a9a;
+    box-shadow: 2px 2px 6px #a09a9abd;
+    margin-inline: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 98%;
+    font-family: monospace;
+}
+
+.todoItemContainer:hover {
+    background-color: #fff5e6de;
+}
+
+.todoItemLabel {
+    display: flex;
+    align-items: center;
+}
+
+.completed {
+    margin-right: 20px;
+    margin-left: 15px;
+}
+.todoItemName {
+    font-size: 15px;
+}
+
+input, button {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px grey;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    color:rgb(113, 96, 88);
+    border: 0;
+    outline: none;
+}
+
+.btnAdd {
+    background-color: #fff5e6;
+    padding: 8px;
+    text-align: center;
+}
+.btnClearAll {
+    margin-top: 20px;
+    background-color: #fff5e6;
+    padding: 8px;
+    text-align: center;
+}
+
+.btnAdd:hover, .btnClearAll:hover {
+    background-color:rgba(244, 175, 111, 0.674);
+}
+
+.inputText {
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.todosLeftToDo, .todosCompleted {
+    color:rgb(113, 96, 88);
+    margin-top: 25px;
+    font-family: monospace;
+    font-style: italic;
+    color:rgba(19, 95, 216, 0.571);
+    font-size: 20px;
+}
